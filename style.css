@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    flex-grow: 1;
+}
+
+.card  {
+    height: 50px;
+    width: 400px;
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.cardpic {
+    display: block;
+    flex-grow: 0;
+}
